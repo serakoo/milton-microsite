@@ -1,0 +1,81 @@
+  <div class="container">
+    <header class="page-header">
+        <h6>Components</h6>
+        <h1>Setup &amp; Usage</h1>
+        <p class="lead">Instructions on how to get started and edit content</p>
+    </header>
+</div>
+<div class="spread"></div>
+<div class="container">
+
+      <p>Here is all you need to know on how to use dispatch and customize it.</p>
+
+      <h3>Folders and files</h3>
+      <ul>
+        <li><strong>/pages</strong>: where all the content pages are stored.</li>
+        <li><strong>/css</strong>: where all the stylesheets can be found</li>
+        <li><strong>/css/dispatch.css</strong>: the main stylesheet you might want to start from to customize dispatch.</li>
+        <li><strong>/img</strong>: images folder, where the "My Client + IDEO" logo is also stored.</li>
+      </ul>
+
+      <br/><hr/>
+
+      <h3>Advanced: Folders and files</h3>
+      <ul>
+        <li><strong>index.php</strong>: main container / page structure.</li>
+        <li><strong>/includes/modal.html</strong>: is the template for modals</li>
+        <li><strong>/includes/functions.php</strong>: where all the PHP scripts are stored</li>
+        <li><strong>/js</strong>: where all the Javascripts are stored</li>
+        <li><strong>/js/dispatch.js</strong>: the main Javascript you might want to start from to extend behaviors</li>
+      </ul>
+
+      <br/><hr/>
+
+      <h3>To edit the content of the menu (and the site content)</h3>
+      <ol>
+        <li>Open <strong>menu.json</strong> in the /js folder</li>
+        <li>Edit  structure and content of you menu / microsite from here</li>
+        <li>All section names must correspond to a .html file saved in the /pages folder</li>
+      </ol>
+      <br/>
+      <mark>Syntax:</mark><br/>
+      <code>
+      {"Name of the section": "file-name-of-the-section-without-the-extension"}
+      </code>
+      <br/>
+      <br/>
+      <mark>Example:</mark><br/>
+      <code>
+      {"Setup &amp; Usage": "how-to"}
+      </code>
+      <br/>
+      which corresponds to a file named <strong>how-to.html</strong> stored into the <strong>/pages</strong> folder
+      <br/><hr/>
+
+      <h3>To run the microsite on your local computer</h3>
+      <ol>
+        <li>Open the <strong>Terminal</strong></li>
+        <li><strong>cd</strong> to the directory of the microsite: cd /Documents/Users/Myself/YOUR_FOLDER/</li>
+        <li>Paste this command and press enter: <strong>php -S localhost:7777</strong></li>
+        <li>Open the browser with this URL: <strong>http://localhost:7777</strong></li>
+      </ol>
+      <br/><hr/>
+
+
+      <h3>To publish your microsite, you'd need</h3>
+      <ol>
+        <li>A web server configured with PHP (all IDEO servers are ready to run PHP)</li>
+        <li>That's it</li>
+      </ol>
+      <br/><hr/>
+
+      <div class="highlights keytakeaways">
+        <h5><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Do you want to build on that?</h5>
+        <p>You can, look here:</p>
+        <ul>
+          <li><a href="?p=bstrap">How to build on dispatch, with Bootstrap</a></li>
+        </ul>
+      </div>  
+
+
+</div>
